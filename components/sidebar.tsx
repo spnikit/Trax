@@ -7,6 +7,7 @@ import {
   Center,
   LinkBox,
   LinkOverlay,
+  Link,
 } from "@chakra-ui/layout";
 import { MdHome, MdSearch, MdLibraryMusic, MdPlaylistAdd, MdFavorite } from "react-icons/md";
 import NextImage from "next/image";
@@ -41,14 +42,12 @@ function Sidebar() {
           <List spacing={2}>
             {nav.map((menuItem) => (
               <ListItem px="20px" fontSize="16px" key={menuItem.name}>
-                <LinkBox>
-                  <NextLink href={menuItem.route} passHref>
-                    <LinkOverlay>
-                      <ListIcon as={menuItem.icon} color="white" mr="20px" />
-                      {menuItem.name}
-                    </LinkOverlay>
-                  </NextLink>
-                </LinkBox>
+                <NextLink href={menuItem.route} passHref>
+                  <Link>
+                    <ListIcon as={menuItem.icon} color="white"></ListIcon>
+                    {menuItem.name}
+                  </Link>
+                </NextLink>
               </ListItem>
             ))}
           </List>
