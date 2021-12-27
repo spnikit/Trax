@@ -1,0 +1,6 @@
+--2021-12-27 20:17:39--  https://tinted-gym-f99.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbea57697-6cde-46d6-a56f-fcf472d9e665%2FUntitled.svg?table=block
+Resolving tinted-gym-f99.notion.site (tinted-gym-f99.notion.site)... 104.18.9.31, 104.18.8.31, 2606:4700::6812:91f, ...
+Connecting to tinted-gym-f99.notion.site (tinted-gym-f99.notion.site)|104.18.9.31|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2021-12-27 20:17:40 ERROR 400: Bad Request.
+
